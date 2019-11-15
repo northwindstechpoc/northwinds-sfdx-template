@@ -1,10 +1,38 @@
 {
-  "orgName": "Demo Company",
-  "edition": "Developer",
-  "features": [],
-  "settings": {
-    "orgPreferenceSettings": {
-      "s1DesktopEnabled": true
+    "orgName": "Dentelo",
+    "edition": "Enterprise",
+    "features": ["ContactsToMultipleAccounts", 
+        "Communities",
+        "HealthCloudUser", 
+        "LightningSalesConsole", 
+        "LightningServiceConsole", 
+        "PersonAccounts", 
+        "ProcessBuilder",
+        "ProductsAndSchedules",
+        "RecordTypes",
+        "SalesUser",
+        "ServiceCloud",
+        "ServiceUser",
+        "Workflow",
+        "WorkflowFlowActionFeature"
+    ],
+    "settings": {
+        "orgPreferenceSettings": {
+            "networksEnabled": true,
+            "enhancedEmailEnabled": true
+      },
+      "quoteSettings":{
+          "enableQuote":true
+      },
+      "orderSettings":{
+          "enableOrders":true
+      },
+      "productSettings":{
+          "enableQuantitySchedule":true,
+          "enableRevenueSchedule":true
+      },
+      "forecastingSettings":{
+          "enableForecasts":true
+      }
     }
-  }
 }
